@@ -25,19 +25,16 @@
 
     <script>
       $(function() {
-        ajaxCall();
+        // ajaxCall();
         // var library = new Songs(songData);
-        setTimeout( () => {
 
-          var library = new Songs(internetData);
+        var library = new Songs();
 
-          var app = new AppModel({ library: library });
+        var app = new AppModel({ library: library });
 
-          var appView = new AppView({model: app});
+        var appView = new AppView({model: app});
 
-          $('body').append(appView.render());
-
-        }, 1000);
+        $('body').append(appView.render());
 
       });
     </script>
