@@ -1,0 +1,58 @@
+body {
+  background-image: url('bluelight.jpg');
+  filter:alpha(opacity=10);
+  opacity: 0.75;
+}
+
+.library{
+  margin-top: 20px;
+  height: 350px;
+  width: 80%;
+  top: 2%;
+  left: 50px;
+  overflow: auto;
+  position: relative;
+  max-width: 550px;
+}
+
+.queue{
+  height: 300px;
+  width: 80%;
+  top: auto;
+  left: 80px;
+  overflow: auto;
+  position: relative;
+  max-width: 550px;
+}
+
+audio {
+  position: static;
+  width: 100%;
+  max-width: 550px;
+}
+
+.player {
+  left: 80px;
+  width: 80%;
+  height: 43px;
+  position: relative;
+  margin: 2% 0;
+  border: steelblue 5px solid;
+  border-radius: 5px;
+  float:left;
+  max-width: 550px;
+}
+
+th {
+  color: white;
+}
+
+.sidetitle {
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 10px;
+  font-size: 40px;
+  word-wrap: break-word;
+  float: left;
+  color: white;
+}

@@ -13,12 +13,5 @@ var ajaxCall = function() {
     error: function(error) {
       console.error(error);
     }
-
-
-
-
-  }
-  );
-
-
+  });
 };
